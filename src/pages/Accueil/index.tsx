@@ -305,7 +305,7 @@ export function AccueilSection() {
               <motion.div
                 className="flex gap-12"
                 animate={{
-                  x: ["0%", "-50%"],
+                  x: ["0%", "-100%"],
                 }}
                 transition={{
                   x: {

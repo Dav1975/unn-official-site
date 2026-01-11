@@ -676,29 +676,39 @@ const actualites = [
 ];
 
 const stats = [
-  { icon: <Users className="w-8 h-8" />, value: "15,000+", label: "Étudiants" },
+  { icon: <Users className="w-8 h-8" />, value: "0", label: "Étudiants" },
   {
     icon: <GraduationCap className="w-8 h-8" />,
-    value: "50+",
+    value: "10+",
     label: "Programmes",
   },
   {
     icon: <BookOpen className="w-8 h-8" />,
-    value: "200+",
+    value: "0+",
     label: "Cours en ligne",
   },
   {
     icon: <Award className="w-8 h-8" />,
-    value: "95%",
+    value: " ",
     label: "Taux de réussite",
   },
 ];
 
 const partenaires = [
-   {
-    nom: "UAM",
-    logo: "/images/partenaires/uam.png",
-    description: "Université Abdou Moumouni",
+  {
+    nom: "UAZ",
+    logo: "/images/partenaires/az.jpeg",
+    description: "Université d'Agadez",
+  },
+  {
+    nom: "UDO",
+    logo: "/images/partenaires/do.png",
+    description: "Université de Dosso",
+  },
+  {
+    nom: "UDA",
+    logo: "/images/partenaires/da.jpeg",
+    description: "Université de Diffa",
   },
   {
     nom: "UDDM",
@@ -706,20 +716,26 @@ const partenaires = [
     description: "Université Dan Dicko Dankoulodo de Maradi",
   },
   {
-    nom: "UN-CHK",
-    logo: "/images/partenaires/un-chk.png",
-    description: "Université Numérique Cheikh Amidou Kane",
+    nom: "UAM",
+    logo: "/images/partenaires/uam.png",
+    description: "Université Abdou Moumouni",
   },
   {
-    nom: "UNG",
-    logo: "/images/partenaires/ung.png",
-    description: "Université Numérique du Gabon",
+    nom: "UDH",
+    logo: "/images/partenaires/ta.png",
+    description: "Université Djibo Hamani de Tahoua",
   },
   {
-    nom: "UVCI",
-    logo: "/images/partenaires/uvci.png",
-    description: "Université Virtuelle de Côte d'Ivoire",
+    nom: "UTI",
+    logo: "/images/partenaires/ti.jpeg",
+    description: "Université de Tillaberi",
   },
+  {
+    nom: "UAS",
+    logo: "/images/partenaires/zr.jpeg",
+    description: "Université André Salifou de Zinder",
+  },
+    
 ];
 
 // Documents PDF de l'université
