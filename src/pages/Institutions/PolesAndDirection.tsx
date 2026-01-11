@@ -620,7 +620,7 @@ const PolesAndDirection = () => {
                             <Quote className="absolute top-4 right-4 w-12 h-12 text-white/20" />
                             <p className="text-xl font-bold italic leading-relaxed">
                                 "La formation à distance offre une opportunité unique d’apprendre sans contrainte de lieu ni d’horaire. Grâce aux outils numériques modernes, les étudiants suivent des cours de qualité tout en conciliant études, travail et vie personnelle. Cette modalité d’
-                                apprentissage favorise l’autonomie, la responsabilité et l’accès à l’enseignement supérieur pour tous. Elle représente aujourd’hui une solution efficace, flexible et tournée vers l’avenir."
+                                apprentissage à distance favorise l’autonomie, la responsabilité et l’accès à l’enseignement supérieur pour tous. Elle représente aujourd’hui une solution efficace, flexible et tournée vers l’avenir."
                             </p>
                         </div>
                      </motion.div>

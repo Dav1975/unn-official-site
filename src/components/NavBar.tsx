@@ -115,13 +115,37 @@ export default function Navbar() {
                   )}
                 </Link>
                 {/* Sous-menu déroulant */}
-                {item.children && openDropdown === item.name && (
+               {item.children && openDropdown === item.name && (
                   <div
                     className="absolute left-0 top-full w-64 bg-white shadow-2xl overflow-hidden animate-fadeIn z-50"
                     onMouseEnter={() => handleMouseEnter(item.name)}
                     onMouseLeave={handleMouseLeave}
                   >
-                    {item.children.map((sub) => (
+                    {item.children.map((sub) => {
+                       const isExternal = sub.href.startsWith("http");
+
+                       return isExternal ? (
+                            <a
+                                key={sub.name}
+                                href={sub.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                 className="block px-4 py-3 text-sm transition-all duration-200"
+                            >
+                               {sub.name}
+                           </a>
+                         ) : (
+                       <Link
+                            key={sub.name}
+                            to={sub.href}
+                           className="block px-4 py-3 text-sm transition-all duration-200"
+                        >
+                         {sub.name}
+                        </Link>
+                      );
+                      })}
+
+                {/*    {item.children.map((sub) => (
                       <Link
                         key={sub.name}
                         to={sub.href}
@@ -133,9 +157,9 @@ export default function Navbar() {
                       >
                         {sub.name}
                       </Link>
-                    ))}
-                  </div>
-                )}
+                    ))} */}
+                  </div>  
+                )} 
               </div>
             ))}
             </div>
@@ -154,7 +178,8 @@ export default function Navbar() {
               <GraduationCap className="w-4 h-4" />
               <span className="hidden sm:inline">Moodle</span>
             </a>
-
+            {/* Sous menu Moodle */}
+           
             {/* Zone de recherche */}
             <div className="relative">
               {searchOpen ? (

@@ -33,11 +33,12 @@ export const polesData: { [key: string]: PoleData } = {
     description: 'Le pôle SHS forme les étudiants aux disciplines qui étudient l\'homme, la société et les cultures dans leurs dimensions historiques, sociales et psychologiques.',
     formations: [
       'Licence en Sociologie',
-      'Licence en Psychologie',
-      'Licence en Histoire',
+     // 'Licence en Psychologie',
+     // 'Licence en Histoire',
       'Licence en Géographie',
-      'Master en Sciences Sociales',
-      'Master en Anthropologie'
+      'Licence en Sciences de l\'Education',
+      'Master en Sciences de l\'Education',
+     // 'Master en Anthropologie'
     ],
     objectifs: [
       'Comprendre les dynamiques sociales et culturelles',
@@ -59,12 +60,12 @@ export const polesData: { [key: string]: PoleData } = {
     title: 'Mathématiques Physiques Chimie',
     description: 'Le pôle MPC offre une formation scientifique rigoureuse dans les disciplines fondamentales des sciences exactes.',
     formations: [
-      'Licence en Mathématiques',
-      'Licence en Physique',
-      'Licence en Chimie',
-      'Master en Mathématiques Appliquées',
-      'Master en Physique Fondamentale',
-      'Master en Chimie Analytique'
+      //'Licence en Mathématiques',
+      //'Licence en Physique',
+      //'Licence en Chimie',
+      //'Master en Mathématiques Appliquées',
+     // 'Master en Big Data et en Intelligence Artificielle (BDIA)',
+     // 'Master en Aide à la Décision et Optimisation Combinatoire (ADOC)'
     ],
     objectifs: [
       'Maîtriser les concepts fondamentaux des sciences exactes',
@@ -86,12 +87,12 @@ export const polesData: { [key: string]: PoleData } = {
     title: 'Sciences Naturelles Agronomiques',
     description: 'Le pôle SNA forme des experts en sciences de la vie, de l\'environnement et de l\'agriculture pour un développement durable.',
     formations: [
-      'Licence en Biologie',
-      'Licence en Agronomie',
-      'Licence en Sciences de l\'Environnement',
-      'Master en Biotechnologie',
-      'Master en Agroécologie',
-      'Master en Gestion des Ressources Naturelles'
+     // 'Licence en Biologie',
+     // 'Licence en Agronomie',
+     // 'Licence en Sciences de l\'Environnement',
+     // 'Master en Biotechnologie',
+     // 'Master en Agroécologie',
+     // 'Master en Gestion des Ressources Naturelles'
     ],
     objectifs: [
       'Former des agronomes et biologistes compétents',
@@ -113,12 +114,12 @@ export const polesData: { [key: string]: PoleData } = {
     title: 'Sciences Juridiques et Politiques',
     description: 'Le pôle SJP forme des juristes et politologues pour renforcer l\'État de droit et la gouvernance démocratique.',
     formations: [
-      'Licence en Droit',
-      'Licence en Science Politique',
-      'Licence en Relations Internationales',
-      'Master en Droit Public',
-      'Master en Droit Privé',
-      'Master en Gouvernance et Politiques Publiques'
+     // 'Licence en Droit',
+     // 'Licence en Science Politique',
+     // 'Licence en Relations Internationales',
+     // 'Master en Droit Public',
+     // 'Master en Droit Privé',
+     // 'Master en Gouvernance et Politiques Publiques'
     ],
     objectifs: [
       'Former des juristes et avocats compétents',
@@ -140,12 +141,12 @@ export const polesData: { [key: string]: PoleData } = {
     title: 'Sciences Économiques de Gestion',
     description: 'Le pôle SEG forme des économistes et gestionnaires pour accompagner le développement économique et entrepreneurial.',
     formations: [
-      'Licence en Économie',
-      'Licence en Gestion',
-      'Licence en Comptabilité',
-      'Master en Finance',
-      'Master en Management',
-      'Master en Entrepreneuriat'
+     // 'Licence en Économie',
+     // 'Licence en Gestion',
+     // 'Licence en Comptabilité',
+     // 'Master en Finance',
+     // 'Master en Management',
+     // 'Master en Entrepreneuriat'
     ],
     objectifs: [
       'Former des managers et entrepreneurs',
@@ -167,15 +168,16 @@ export const polesData: { [key: string]: PoleData } = {
     title: 'Médecine Pharmacie et Odontostomatologie',
     description: 'Le pôle MPO forme des professionnels de la santé pour améliorer l\'accès aux soins et la qualité des services de santé.',
     formations: [
-      'Licence en Sciences de la Santé',
-      'Diplôme d\'État en Médecine',
-      'Diplôme d\'État en Pharmacie',
-      'Diplôme d\'État en Odontologie',
-      'Master en Santé Publique',
-      'Spécialisations médicales'
+     // 'Licence en Sciences de la Santé',
+      //'Diplôme d\'État en Médecine',
+      //'Diplôme d\'État en Pharmacie',
+      //'Diplôme d\'État en Odontologie',
+      'Master en Sciences Chirurgicales et Nouvelles Technologies',
+      'Master en Santé Numérique'
     ],
     objectifs: [
-      'Former des médecins et pharmaciens qualifiés',
+      'Promouvoir les Sciences Chirurgicales et les nouvelles technologies',
+      'Promouvoir la Santé Numérique',
       'Améliorer la santé publique',
       'Développer la recherche médicale',
       'Promouvoir la médecine préventive'
@@ -299,9 +301,15 @@ const navigation = [
         ]
     },
     {
-        name: "Documents",
-        href: "/documents",
+        name: "Plateforme",
+        href: "/plateforme",
+        children: [
+            { name: "Plateforme", href: "http://192.168.1.104/moodle/login" },
+        ]
     },
+   /* {
+        href: "/documents",
+    }, */
     /*{
         name: "Vie Étudiante",
         href: "/vie-etudiante",
@@ -481,7 +489,7 @@ const rechercheEntites = [
     href: "/recherche/laboratoire/lamon-ia",
   },
   {
-    code: "RéCyb",
+    code: "LaRéCyb",
     title: "Laboratoire de Réseaux et CyberSécurité",
     description:
       "Expertise en sécurité des réseaux, cryptographie et protection des infrastructures numériques critiques.",
@@ -489,7 +497,7 @@ const rechercheEntites = [
     href: "/recherche/laboratoire/recyb",
   },
   {
-    code: "2ER",
+    code: "La2ER",
     title: "Laboratoire Énergies Fossiles & Énergies Renouvelables",
     description:
       "Recherche sur les énergies fossiles, énergies renouvelables et transition énergétique durable.",

@@ -23,7 +23,7 @@ export default function AcademicHeader() {
                 Université Numérique du Niger
               </h1>
               <p className="text-sm sm:text-base text-[#12283E] italic leading-relaxed mt-1">
-                Le savoir accessible partout pour tous
+                Le savoir accessible partout et pour tous
               </p>
             </div>
 
