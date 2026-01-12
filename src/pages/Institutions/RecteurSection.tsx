@@ -125,17 +125,17 @@ const RecteurSection = () => {
                         {/* Quote Introduction */}
                         <div className="relative  bg-[#2f4858]  p-8 rounded-sm text-white shadow-xl">
                             <Quote className="absolute top-4 right-4 w-12 h-12 text-white/20" />
-                            <p className="text-xl font-bold italic leading-relaxed">
+                        {/*    <p className="text-xl font-bold italic leading-relaxed">
                                 "L'éducation est la clé qui ouvre les portes de l'avenir. À l'Université Numérique,
                                 nous nous engageons à offrir une formation d'excellence qui prépare nos étudiants
                                 aux défis du monde de demain."
-                            </p>
+                            </p>  */}
                         </div>
 
                         {/* Main Message */}
                         <div className="bg-white p-8   ]">
                             <div className="space-y-6 text-[#12283E] leading-relaxed text-lg font-medium">
-                                <p className="text-xl font-bold text-[#2f4858]">
+                        {/*        <p className="text-xl font-bold text-[#2f4858]">
                                     Chers étudiants, chers collègues, chers partenaires,
                                 </p>
                                 <p>
@@ -175,12 +175,12 @@ const RecteurSection = () => {
                                 </p>
                                 <p className="text-xl font-bold text-[#2f4858]">
                                     Ensemble, construisons l'avenir de l'éducation et formons les leaders de demain.
-                                </p>
+                                </p> */}
                                 
                                 {/* Signature */}
                                 <div className="border-t border-[#D9D8D5] pt-6 mt-8">
-                                    <p className="font-black text-[#12283E] text-xl">Pr. Rachid Sani</p>
-                                    <p className="text-[#2f4858] font-bold text-lg">Recteur de l'Université Numérique du Niger</p>
+                              {/*       <p className="font-black text-[#12283E] text-xl">Pr. Rachid Sani</p>
+                                    <p className="text-[#2f4858] font-bold text-lg">Recteur de l'Université Numérique du Niger</p> */}
                                 </div>
                             </div>
                         </div>
