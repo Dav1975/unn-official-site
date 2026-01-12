@@ -57,7 +57,7 @@ export default function PolesRecherche() {
               Une Recherche d'Excellence au Service du Développement
             </h2>
             <p className="text-lg text-[#12283E]/70 leading-relaxed">
-              Le pôle de recherche de l'Université Numérique du Niger est une structure fédérative qui regroupe plusieurs laboratoires et équipes de recherche. Il a pour vocation de promouvoir l'excellence scientifique, de développer des projets innovants et de former une nouvelle génération de chercheurs. En synergie avec les pôles de formation, il contribue à la production de connaissances et au développement de solutions technologiques répondant aux défis nationaux et internationaux.
+              Le pôle de recherche de l'Université Numérique du Niger est une structure qui regroupe plusieurs laboratoires au sein desquels se trouvent les équipes de recherche. Il a pour vocation de promouvoir la recherche scientifique, de développer des projets innovants et de former les chercheurs. En synergie avec les pôles de formation, il contribue à la production scientifique et au développement de solutions technologiques répondant aux défis nationaux et internationaux.
             </p>
           </motion.div>
         </div>
@@ -138,9 +138,9 @@ export default function PolesRecherche() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
             {[
               { icon: Building2, label: "Laboratoires", value: "3", color: "from-blue-500 to-blue-600", bgColor: "bg-blue-50" },
-              { icon: Users, label: "Chercheurs", value: "45+", color: "from-emerald-500 to-emerald-600", bgColor: "bg-emerald-50" },
-              { icon: BookOpen, label: "Publications", value: "150+", color: "from-purple-500 to-purple-600", bgColor: "bg-purple-50" },
-              { icon: TrendingUp, label: "Projets Actifs", value: "12+", color: "from-amber-500 to-amber-600", bgColor: "bg-amber-50" }
+              { icon: Users, label: "Chercheurs", value: "0", color: "from-emerald-500 to-emerald-600", bgColor: "bg-emerald-50" },
+              { icon: BookOpen, label: "Publications", value: "0", color: "from-purple-500 to-purple-600", bgColor: "bg-purple-50" },
+              { icon: TrendingUp, label: "Projets Actifs", value: "0", color: "from-amber-500 to-amber-600", bgColor: "bg-amber-50" }
             ].map((stat, index) => (
               <motion.div
                 key={index}
@@ -184,15 +184,15 @@ export default function PolesRecherche() {
                     alt="Professeur Mamane Souleye Ibrahim"
                     className="h-full w-full object-cover"
                   />*/}
-                  <div className="absolute bottom-6 left-6 right-6 z-20 text-white">
+            {/*      <div className="absolute bottom-6 left-6 right-6 z-20 text-white">
                     <div className="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm px-3 py-1.5 rounded-full mb-3 border border-white/30">
                       <Target className="w-3 h-3" />
                       <span className="text-xs font-medium">Coordonnateur du Pôle</span>
                     </div>
                     <h3 className="text-2xl font-bold mb-1">Prof. Mamane Souleye Ibrahim</h3>
                     <p className="text-sm text-white/90">Pôle de Recherche et Innovation</p>
-                  </div>
-                </div>
+                                      </div> */}
+                 </div>  
 
                 {/* Contenu section */}
                 <div className="md:col-span-3 p-8 md:p-10 flex flex-col justify-center">
@@ -201,9 +201,9 @@ export default function PolesRecherche() {
                     <blockquote className="text-lg text-[#12283E]/90 leading-relaxed italic mb-6">
                       "Notre ambition est de faire de l'Université Numérique du Niger un hub d'innovation et de recherche scientifique de premier plan en Afrique. Nous nous engageons à créer un environnement stimulant pour nos chercheurs et à développer des projets à fort impact sociétal."
                     </blockquote>
-                  </div>
+                  </div> 
 
-                  <div className="space-y-3">
+                 <div className="space-y-3">
                     <div className="flex items-center gap-3 text-sm">
                       <div className="w-2 h-2 rounded-full bg-[#2f4858]"></div>
                       <span className="text-[#12283E]/70">Leadership en Innovation Numérique</span>
@@ -216,9 +216,9 @@ export default function PolesRecherche() {
                       <div className="w-2 h-2 rounded-full bg-[#2f4858]"></div>
                       <span className="text-[#12283E]/70">Promotion de la Recherche Appliquée</span>
                     </div>
-                  </div>
-                </div>
-              </div>
+                  </div> 
+                </div> 
+              </div>   
 
           </motion.div>
         </div>
