@@ -9,71 +9,71 @@ export default function EquipesRecherche() {
   // Créer des données d'équipes basées sur les laboratoires
   const equipesRecherche = [
     {
-      nom: "Équipe Intelligence Artificielle & Apprentissage",
-      laboratoire: "LIAM",
-      responsable: "Dr. Sarah Amadou",
-      membres: 12,
-      doctorants: 5,
+      nom: "Équipe  de Recherche Intelligence Artificielle  (ERIA)",
+      laboratoire: "LaMon & IA",
+      responsable: "",
+      membres: 0,
+      doctorants: 0,
       domaines: ["Deep Learning", "Computer Vision", "NLP", "Reinforcement Learning"],
       description: "Équipe spécialisée dans le développement d'algorithmes d'IA avancés et leur application dans divers domaines.",
-      projetsActifs: 3,
-      publications: 45
+      projetsActifs: 0,
+      publications: 0
     },
     {
-      nom: "Équipe Cybersécurité & Cryptographie",
-      laboratoire: "LCS",
-      responsable: "Dr. Ibrahim Moussa",
-      membres: 8,
-      doctorants: 3,
-      domaines: ["Sécurité Réseau", "Cryptographie", "Blockchain", "Forensique Numérique"],
-      description: "Recherche sur la protection des systèmes d'information et le développement de protocoles sécurisés.",
-      projetsActifs: 2,
-      publications: 32
+      nom: "Équipe de Recherche Aide à la Décision et Optimisation Combinatoire, (ERADOC)",
+      laboratoire: "LaMoN & IA",
+      responsable: " ",
+      membres: 0,
+      doctorants: 0,
+      domaines: ["Optimisation multicritère", "Décision dans l'incertain", "Polyèdre et Optimisation combinatoire", "Optimisation continue"],
+      description: "Recherche sur l'aide àl a décision et sur l'optimisation combinatoire avancée.",
+      projetsActifs: 0,
+      publications: 0
     },
-    {
-      nom: "Équipe Big Data & Analytics",
-      laboratoire: "LIAM",
-      responsable: "Dr. Fatima Hassan",
-      membres: 10,
-      doctorants: 4,
-      domaines: ["Data Mining", "Machine Learning", "Data Visualization", "Predictive Analytics"],
-      description: "Analyse et traitement de données massives pour extraire des insights significatifs.",
-      projetsActifs: 4,
-      publications: 38
-    },
-    {
-      nom: "Équipe Technologies Éducatives",
-      laboratoire: "CEN",
-      responsable: "Dr. Aminata Diallo",
-      membres: 15,
-      doctorants: 6,
-      domaines: ["E-learning", "EdTech", "Learning Analytics", "MOOC"],
-      description: "Innovation pédagogique et développement de solutions numériques pour l'éducation.",
-      projetsActifs: 5,
-      publications: 52
-    },
-    {
-      nom: "Équipe Transformation Digitale",
-      laboratoire: "CEN",
-      responsable: "Dr. Oumarou Sani",
-      membres: 9,
-      doctorants: 3,
-      domaines: ["Digital Strategy", "Change Management", "Innovation", "UX Design"],
-      description: "Étude de l'impact de la transformation numérique sur les organisations et la société.",
-      projetsActifs: 3,
-      publications: 28
-    },
-    {
-      nom: "Équipe Blockchain & Applications Distribuées",
-      laboratoire: "LCS",
-      responsable: "Dr. Mamadou Sow",
-      membres: 7,
-      doctorants: 2,
-      domaines: ["Blockchain", "Smart Contracts", "DApps", "Web3"],
-      description: "Recherche sur les technologies blockchain et leurs applications dans différents secteurs.",
-      projetsActifs: 2,
-      publications: 24
-    }
+   //// {
+   //   nom: "Équipe Big Data & Analytics",
+   //   laboratoire: "LIAM",
+  //    responsable: " ",
+  //    membres: 0,
+   //   doctorants: 0,
+  //    domaines: ["Data Mining", "Machine Learning", "Data Visualization", "Predictive Analytics"],
+ //     description: "Analyse et traitement de données massives pour extraire des insights significatifs.",
+ //     projetsActifs: 0,
+ //     publications: 0
+ //   },
+   // {
+   //   nom: "Équipe Technologies Éducatives",
+   //   laboratoire: "CEN",
+   //   responsable: "",
+     // membres: 15,
+     // doctorants: 6,
+     // domaines: ["E-learning", "EdTech", "Learning Analytics", "MOOC"],
+     // description: "Innovation pédagogique et développement de solutions numériques pour l'éducation.",
+    //  projetsActifs: 5,
+    //  publications: 52
+   // },
+   // {
+      //nom: "Équipe Transformation Digitale",
+      //laboratoire: "CEN",
+      //responsable: " ",
+      //membres: 9,
+      //doctorants: 3,
+      //domaines: ["Digital Strategy", "Change Management", "Innovation", "UX Design"],
+      //description: "Étude de l'impact de la transformation numérique sur les organisations et la société.",
+      //projetsActifs: 3,
+      //publications: 28
+   // },
+   // {
+     // nom: "Équipe Blockchain & Applications Distribuées",
+     // laboratoire: "LCS",
+     // responsable: " ",
+     // membres: 7,
+     // doctorants: 2,
+     // domaines: ["Blockchain", "Smart Contracts", "DApps", "Web3"],
+     // description: "Recherche sur les technologies blockchain et leurs applications dans différents secteurs.",
+     // projetsActifs: 2,
+     // publications: 24
+   // }
   ];
 
   return (
