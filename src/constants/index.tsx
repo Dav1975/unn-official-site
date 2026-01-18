@@ -172,8 +172,9 @@ export const polesData: { [key: string]: PoleData } = {
       //'Diplôme d\'État en Médecine',
       //'Diplôme d\'État en Pharmacie',
       //'Diplôme d\'État en Odontologie',
-      'Master en Sciences Chirurgicales et Nouvelles Technologies',
-      'Master en Santé Numérique'
+      'Master Sciences Chirurgicales et Nouvelles Technologies',
+      'Master Santé Numérique',
+      'Master Sciences de données en Santé',
     ],
     objectifs: [
       'Promouvoir les Sciences Chirurgicales et les nouvelles technologies',

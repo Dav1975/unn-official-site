@@ -167,32 +167,32 @@ const FormationInitiale = () => {
         'Stage en entreprise obligatoire'
       ]
     },
-    {
-      id: 'licence-mpo',
-      title: 'Licence Médecine Pharmacie Odontostomatologie',
-      acronym: 'L-MPO',
-      niveau: 'Licence (Bac+3)',
-      duree: '3 ans',
-      description: 'Première étape du cursus médical et paramédical offrant une formation scientifique solide en sciences de la santé.',
-      icon: getIcon('licence-mpo'),
-      prerequis: [
-        'Baccalauréat série S ou équivalent',
-        'Excellentes notes en sciences',
-        'Vocation pour les métiers de la santé'
-      ],
-      competences: [
-        'Anatomie et physiologie',
-        'Biologie médicale',
-        'Pharmacologie de base',
-        'Éthique médicale'
-      ],
-      modalites: [
-        'Cours théoriques à distance',
-        'Travaux pratiques en centre agréé',
-        'Stages hospitaliers',
-        'Examens nationaux'
-      ]
-    },
+    //{
+     // id: 'licence-mpo',
+     // title: 'Licence Médecine Pharmacie Odontostomatologie',
+     // acronym: 'L-MPO',
+     // niveau: 'Licence (Bac+3)',
+     // duree: '3 ans',
+     // description: 'Première étape du cursus médical et paramédical offrant une formation scientifique solide en sciences de la santé.',
+     // icon: getIcon('licence-mpo'),
+     // prerequis: [
+      //  'Baccalauréat série S ou équivalent',
+     //   'Excellentes notes en sciences',
+     //   'Vocation pour les métiers de la santé'
+     // ],
+     // competences: [
+     //   'Anatomie et physiologie',
+     //   'Biologie médicale',
+    //    'Pharmacologie de base',
+    //    'Éthique médicale'
+   //   ],
+   //   modalites: [
+   //     'Cours théoriques à distance',
+   //     'Travaux pratiques en centre agréé',
+  //      'Stages hospitaliers',
+   //     'Examens nationaux'
+  //    ]
+    //},
     {
       id: 'licence-sti',
       title: 'Licence Sciences Techniques de l\'Ingénierie',
