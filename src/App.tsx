@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router-dom";
 import PolesSection from "./pages/Poles/PolesSection";
 import EnseignementSection from "./pages/Poles/EnseignementSection";
 import RechercheSectionf from "./pages/Poles/RechercheSectionf";
+import MinistreSection from "./pages/Institutions/MinistreSection";
 import RecteurSection from "./pages/Institutions/RecteurSection";
 import Test from "./pages/Institutions/Test";
 import PolesAndDirection from "./pages/Institutions/PolesAndDirection";
@@ -48,6 +49,8 @@ export default function App() {
           <Route path="/actualites/:id" element={<ActualiteDetail />} />
           <Route path="/documents" element={<DocumentsSection />} />
           <Route path="/documents/:id" element={<DocumentDetail />} />
+          <Route path="/institutions/mot-du-ministre" element={< MinistreSection/>} />
+          <Route path="/institutions" element={< MinistreSection/>} />
           <Route path="/institutions/mot-du-recteur" element={< RecteurSection/>} />
           <Route path="/institutions" element={< RecteurSection/>} />
           <Route path="/institutions/organigramme" element={< Test/>} />

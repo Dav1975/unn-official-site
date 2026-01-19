@@ -273,6 +273,7 @@ const navigation = [
     name: "Institutions",
     href: "/institutions",
     children: [
+      { name: "Mot du Ministre", href: "/institutions/mot-du-ministre" },
       { name: "Mot du Recteur", href: "/institutions/mot-du-recteur" },
       { name: "Organigramme", href: "/institutions/organigramme" },
       { name: "Directions & Pôles", href: "/institutions/directions-et-poles" },
