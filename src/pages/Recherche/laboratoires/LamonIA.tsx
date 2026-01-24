@@ -306,7 +306,7 @@ export default function LamonIA() {
       </section>
 
       {/* Équipe */}
-      <section className="py-20 bg-white">
+     {/*   <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -342,17 +342,17 @@ export default function LamonIA() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Stats */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { icon: Users, label: "Chercheurs", value: "20+" },
-              { icon: BookOpen, label: "Publications", value: "50+" },
-              { icon: TrendingUp, label: "Projets Actifs", value: "8" },
-              { icon: Award, label: "Partenariats", value: "15+" },
+              { icon: Users, label: "Chercheurs", value: "0" },
+              { icon: BookOpen, label: "Publications", value: "0" },
+              { icon: TrendingUp, label: "Projets Actifs", value: "0" },
+              { icon: Award, label: "Partenariats", value: "8" },
             ].map((stat, index) => (
               <motion.div
                 key={index}

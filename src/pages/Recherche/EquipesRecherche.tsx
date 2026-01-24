@@ -272,7 +272,7 @@ export default function EquipesRecherche() {
       </section>
 
       {/* Projets de Recherche Section */}
-      <section className="py-20 bg-gradient-to-b from-white to-gray-50">
+     {/*   <section className="py-20 bg-gradient-to-b from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div
             className="mb-12"
@@ -375,7 +375,7 @@ export default function EquipesRecherche() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Join Us Section */}
       <section className="py-20 bg-gradient-to-br from-[#2f4858] to-[#1a2d3d] relative overflow-hidden">

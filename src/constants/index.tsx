@@ -512,7 +512,7 @@ const laboratoires = [
   {
     nom: "Laboratoire de Modélisation Numérique & d'IA",
     acronyme: "LaMoN & IA",
-    directeur: "Prof. Mamane. S. Ibrahim",
+    directeur: "Pr. Mamane. S. Ibrahim",
     directeurPhoto: "/images/recteur.jpeg",
     membres: "25 chercheurs",
     domaines: [
@@ -529,7 +529,7 @@ const laboratoires = [
   {
     nom: "Laboratoire des Systèmes Réseaux et Cybersécurité",
     acronyme: "LaReCyb",
-    directeur: "Prof. Mamane. S. Ibrahim",
+    directeur: "Pr. Mamane. S. Ibrahim",
     directeurPhoto: "/images/recteur.jpeg",
     membres: "18 chercheurs",
     domaines: ["Cryptographie", "Sécurité Réseau", "Forensique", "Blockchain"],
@@ -541,7 +541,7 @@ const laboratoires = [
   {
     nom: "Centre d'Études Numériques",
     acronyme: "CEN",
-    directeur: "Prof. Mamane. S. Ibrahim",
+    directeur: "Pr. Mamane. S. Ibrahim",
     directeurPhoto: "/images/recteur.jpeg",
     membres: "30 chercheurs",
     domaines: [
