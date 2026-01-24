@@ -254,7 +254,7 @@ export default function LamonIA() {
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 text-sm text-[#12283E]/60">
                       <Users className="w-4 h-4" />
-                      <span>8-10 chercheurs</span>
+                      <span>5 chercheurs</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-[#12283E]/60">
                       <BookOpen className="w-4 h-4" />
@@ -291,7 +291,7 @@ export default function LamonIA() {
                   <div className="space-y-2">
                     <div className="flex items-center gap-2 text-sm text-[#12283E]/60">
                       <Users className="w-4 h-4" />
-                      <span>6-8 chercheurs</span>
+                      <span>5 chercheurs</span>
                     </div>
                     <div className="flex items-center gap-2 text-sm text-[#12283E]/60">
                       <BookOpen className="w-4 h-4" />

@@ -230,7 +230,7 @@ const MinistreSection = () => {
                     ))}
                 </div>
             </div> 
-        </div> */}
+        </div> Mise en commentaire qui provoque l erreur dans ce fichier */}
     </div> 
   );
 };
