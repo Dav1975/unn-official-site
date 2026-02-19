@@ -125,11 +125,14 @@ const RecteurSection = () => {
                         {/* Quote Introduction */}
                         <div className="relative  bg-[#2f4858]  p-8 rounded-sm text-white shadow-xl">
                             <Quote className="absolute top-4 right-4 w-12 h-12 text-white/20" />
-                        {/*    <p className="text-xl font-bold italic leading-relaxed">
-                                "L'éducation est la clé qui ouvre les portes de l'avenir. À l'Université Numérique,
-                                nous nous engageons à offrir une formation d'excellence qui prépare nos étudiants
-                                aux défis du monde de demain."
-                            </p>  */}
+                            <p className="text-xl font-bold italic leading-relaxed">
+                                  "Découvrez la vision et les valeurs qui guident notre université vers l'excellence académique et l'innovation pédagogique au service de 
+                                   la formation de demain.
+                               </p>  
+                               <p className="text-xl font-bold italic leading-relaxed">
+                                 Notre site pour être près de vous pour un enseignement de qualité. Nous serons très attentifs aux observations pour mieux répondre aux attentes 
+                                 des étudiants et de tous les utilisateurs de la plateforme."
+                               </p>
                         </div>
 
                         {/* Main Message */}
