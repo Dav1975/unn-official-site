@@ -556,7 +556,7 @@ const laboratoires = [
     projets: 12,
   },
 ];
-
+    
 const projetsRecherche = [
   {
     titre: "EduAI : IA pour l'Éducation Personnalisée",
@@ -853,7 +853,7 @@ export {
   poles,
   enseignementFacultes,
   rechercheEntites,
+  projetsRecherche, 
   laboratoires,
-  projetsRecherche,
   documents,
 };
