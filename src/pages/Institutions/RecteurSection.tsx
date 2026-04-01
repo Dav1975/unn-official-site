@@ -65,7 +65,7 @@ const RecteurSection = () => {
         <div className="relative bg-white ">
             {/* Formes géométriques décoratives */}
             <div className="absolute inset-0 pointer-events-none z-0">
-                <motion.div
+             <motion.div
                     className="absolute -top-4 -left-0 w-80 h-80 rounded-full bg-[#2f4858]/70"
                     animate={{
                         scale: [1, 1.1, 1],
@@ -75,7 +75,7 @@ const RecteurSection = () => {
                         repeat: Infinity,
                         ease: "easeInOut",
                     }}
-                />
+                /> 
                 <motion.div
                     className="absolute  bottom-4 -right-40 w-96 h-96 rounded-full bg-[#2f4858]/70"
                     animate={{
@@ -100,7 +100,7 @@ const RecteurSection = () => {
                     >
                         <div className="sticky top-24 bg-white rounded-lg shadow-md overflow-hidden">
                             <img
-                                src="/images/Recteur.png"
+                                src="/images/recteur3.jpg"
                                 alt="Recteur"
                                 className="w-full h-80 object-cover"
                             />
