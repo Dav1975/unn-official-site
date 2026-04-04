@@ -605,6 +605,25 @@ const projetsRecherche = [
 ];
 
 const actualites = [
+   {
+    date: "04 Avr 2026",
+    category: "Atelier",
+    title: "Atelier d'élaboration des curricula à l'UNN",
+    description:
+      "Du 31 mars au 04 avril 2026 s'est tenu l'atelier d'élaboration et de validation des curricula de l'UNN. Cet atelier a constitué un cadre d'échanges constructifs entre enseignants chercheurs, experts pédagogiques et professionnels. La phase de validation a permis de consolider les propositions issues des différents groupes de travail, garantissant ainsi la cohérence, la pertinence et la qualités des curricula élaborés.",
+    images: [
+      "/images/actualités/famille1.jpg",
+      "/images/actualités/famille2.jpg",
+      "/images/actualités/Pleniere1.jpg",
+      "/images/actualités/Pleniere2.jpg",
+      "/images/actualités/Pleniere3.jpg",
+      "/images/actualités/Pleniere4.jpg",
+      "/images/actualités/Pleniere5.jpg",
+      "/images/actualités/Pleniere6.jpg",
+      "/images/actualités/EquipeMaths1.jpg"
+    ],
+  },
+
   {
     date: "05 Jan 2026",
     category: "Événement",
