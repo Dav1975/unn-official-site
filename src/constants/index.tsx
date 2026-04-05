@@ -623,7 +623,6 @@ const actualites = [
       "/images/actualités/EquipeMaths1.jpg"
     ],
   },
-
   {
     date: "05 Jan 2026",
     category: "Événement",
