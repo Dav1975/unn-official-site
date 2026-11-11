@@ -169,7 +169,7 @@ export default function Navbar() {
           <div className="flex items-center gap-2 relative">
             {/* Bouton Moodle */}
             <a
-              href="http://46.225.219.54"
+              href="https://moodle-unn.cloud"
               target="_blank"
               rel="noopener noreferrer"
               className="px-3 py-2.5 text-sm font-medium text-white bg-[#2f4858] hover:bg-[#2f4858]/90 transition-all duration-300 flex items-center gap-2 shadow-md hover:shadow-lg hover:scale-105"

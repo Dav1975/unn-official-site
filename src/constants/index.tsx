@@ -306,7 +306,7 @@ const navigation = [
         name: "Plateforme",
         href: "/plateforme",
         children: [
-            { name: "Plateforme", href: "http://46.225.219.54" },
+            { name: "Plateforme", href: "https://moodle-unn.cloud" },
         ]
     },
    /* {
